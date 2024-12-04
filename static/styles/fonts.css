@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'AT-R';
+    src:
+        local(AtypText-Regular),
+        url(../fonts/AtypText-Regular.woff2) format("woff2"),
+        url(../fonts/AtypText-Regular.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: 'AT-M';
+    src:
+        local(AtypText-Medium),
+        url(../fonts/AtypText-Medium.woff2) format("woff2"),
+        url(../fonts/AtypText-Medium.woff2) format("ttf");
+}
+
+@font-face {
+    font-family: 'AT-SB';
+    src:
+        local(AtypText-Semibold),
+        url(../fonts/AtypText-Semibold.woff2) format("woff2"),
+        url(../fonts/AtypText-Semibold.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: 'AT-B';
+    src:
+        local(AtypText-Bold),
+        url(../fonts/AtypText-Bold.woff2) format("woff2"),
+        url(../fonts/AtypText-Bold.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: 'BNB';
+    src:
+        local(BebasNeueBold),
+        url(../fonts/BebasNeueBold.woff2) format("woff2"),
+        url(../fonts/BebasNeueBold.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: 'MP-R';
+    src:
+        local(MyriadPro),
+        url(../fonts/MyriadPro-Regular.woff2) format("woff2"),
+        url(../fonts/MyriadPro-Regular.ttf) format("ttf");
+}

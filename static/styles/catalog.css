@@ -1,0 +1,494 @@
+.header-container{
+    background-color: rgb(18, 18, 18);
+}
+  
+
+body{
+    width: 100wv;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.store{
+    width: 100vw;
+    height: 1252px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.store::after{
+    content:'';
+    width: calc((100% - 1400px) / 2);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url(../imgs/ornament.png);
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.store-navigation-wrap{
+    width: 1400px;
+    margin-top: 25px;
+}
+
+.store-navigation{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.store-navigation a{
+    font-size: 15px;
+    font-family: "AT-R";
+    color: rgb(34, 34, 34);
+}
+
+.store-navigation a:last-child{
+    color: #47a62a;
+}
+
+.circle{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 1px solid #47a62a;
+}
+  
+
+.store-h-wrap{
+    width: 1400px;
+}
+
+.store-h{
+    width: 314px;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.store-h h1{
+    font-size: 64px;
+    font-family: "BNB";
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;  
+}
+
+.grayline {
+    width: 85px;
+    height: 1px;
+    background-color: rgb(220, 220, 220);
+}
+
+.store-filters_and_grid-grid-wrap{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(250, 250, 250);
+}
+
+.store-filters_and_grid{
+    width: 1400px;
+    height: 969px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 250, 250);
+}
+
+.store-filters_and_grid-filters-price{
+    width: 314px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(226, 226, 226); 
+}
+
+.store-filters_and_grid-filters h2{
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-family: "BNB";
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+}
+  
+
+.store-filters_and_grid-filters-price .inputs{
+    width: 263px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.store-filters_and_grid-filters-price .inputs label{
+    font-size: 16px;
+    font-family: "AT-M";
+    color: rgb(154, 154, 154);
+}
+
+.store-filters_and_grid-filters-price .inputs input{
+    width: 70px;
+    font-size: 18px;
+    font-family: "AT-R";
+    color: rgb(34, 34, 34);
+    text-align: center;
+}
+  
+
+.store-filters_and_grid-filters-price .inputs .inputs-from,
+.store-filters_and_grid-filters-price .inputs .inputs-to{
+    width: 122px;
+    height: 47px;
+    padding: 0 14px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(232, 232, 232);
+}
+
+.store-filters_and_grid-filters-types{
+    width: 100%;
+    height: 264px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.store-filters_and_grid-filters-types .inputs{
+    height: 146px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputs .input{
+    display: flex;
+}
+
+.inputs .input input{
+    display: none;
+}
+
+.inputs .input label{
+    width: 23px;
+    height: 23px;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid rgb(232, 232, 232);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.inputs .input input:checked + label::after{
+    display: block;
+}
+
+.inputs .input label::after{
+    content: "";
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    display: none;
+    left: 4px;
+    top: 4px;
+    background-image:url(../imgs/check.png);
+    background-repeat: no-repeat;
+}
+
+.inputs .input p {
+    width: 200px;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 22px;
+    font-family: "AT-R";
+    color: rgb(34, 34, 34);
+}
+
+.store-filters_and_grid-filters-for_house{
+    height: 247px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.store-filters_and_grid-filters-for_house .inputs{
+    height: 127px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.store-filters_and_grid-filters-casing_type{
+    height: 184px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.store-filters_and_grid-filters-casing_type .inputs{
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.store-filters_and_grid-filters-manage{
+    display: flex;
+    align-items: center;
+}
+
+.store-filters_and_grid-filters-manage-submit{
+    width: 148px;
+    height: 49px;
+    border: 1px solid rgb(226, 226, 226);
+    background-color: rgb(246, 246, 246);
+    font-size: 16px;
+    font-family: "AT-R";
+    color: rgb(71, 165, 41);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.store-filters_and_grid-filters-manage-reset{
+    width: 20px;
+    height: 21px;
+    margin-left: 28px;
+    background-image: url(../imgs/cancel.png);
+    background-color: inherit;
+}
+
+.store-filters_and_grid-grid{
+    width: 1038px;
+}
+
+.store-filters_and_grid-grid-manage{
+    width: 100%;
+    margin: 18px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.store-filters_and_grid-grid label{
+    font-size: 16px;
+    font-family: "AT-R";
+    color: rgb(130, 130, 130);
+    text-transform: uppercase;
+}
+
+.store-filters_and_grid-grid select{
+    width: 66px;
+    margin-left: 28px;
+    font-size: 16px;
+    font-family: "AT-R";
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.store-filters_and_grid-grid select#sort{
+    background-color: inherit;
+}
+
+.store-filters_and_grid-grid select::-ms-expand{
+    display: none;
+}
+
+.store-filters_and_grid-grid-show,
+.store-filters_and_grid-grid-sort_by{
+    display: flex;
+    align-items: center;
+}
+
+.store-filters_and_grid-grid-show select{
+    width: 76px;
+    height: 47px;
+    padding-left: 20px;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid rgb(232, 232, 232);
+}
+
+.store-filters_and_grid-grid-show{
+    position: relative;
+}
+
+.store-filters_and_grid-grid-show::after{
+    content: "";
+    width: 8px;
+    height: 6px;
+    position: absolute;
+    top: 22px;
+    left: 170px;
+    z-index: 5;
+    background-image: url(../imgs/downArrow.png);
+}
+
+.store-filters_and_grid-grid-cards{
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.store-filters_and_grid-grid-cards-card{
+    width: 314px;
+    height: 351px;
+    position: relative;
+    border: 1px solid rgb(232, 232, 232);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.store-filters_and_grid-grid-cards .hit::after{
+    content: 'хит';
+    width: 58px;
+    height: 25px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    position: absolute;
+    top: -11px;
+    right: 16px;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-family: "AT-SB";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    background-color: rgb(71, 166, 42);
+    
+}
+
+.store-filters_and_grid-grid-cards-card-title{
+    width: 220px;
+    margin-top: 25px;
+    font-size: 16px;
+    font-family: "AT-SB";
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+}
+
+.store-filters_and_grid-grid-cards-card-price{
+    width: 100%;
+    height: 66px;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 26px;
+    font-family: "AT-SB";
+    color: rgb(71, 166, 42);
+    text-align: center;
+    background-color: rgb(246, 246, 246);
+}
+  
+.store-filters_and_grid-grid-cards-card:hover{
+    border: 1px solid rgb(164, 228, 144);
+    box-shadow: 0px 5px 20px 0px rgb(228, 242, 224);
+    transition: 0.3s;
+}
+
+.store-filters_and_grid-grid-pagination{
+    width: 356px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.store-filters_and_grid-grid-pagination img{
+    height: 16px;
+}
+
+.store-filters_and_grid-grid-pagination-pages{
+    width: 292px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.store-filters_and_grid-grid-pagination-pages-element{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(232, 232, 232);
+    font-size: 16px;
+    font-family: "AT-SB";
+    color: rgb(34, 34, 34);
+}
+
+.store-filters_and_grid-grid-pagination-pages .dots{
+    width: 16px;
+    border: 0;
+}
+
+.store-filters_and_grid-grid-pagination-pages .active{
+    border: 0;
+    color: white;
+    background-color: rgb(71, 166, 42);
+}
+
+.description-wrap{
+    width: 100%;
+    height: 398px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-title{
+    width: 314px;
+}
+
+.description h2{
+    font-size: 64px;
+    font-family: "BNB";
+    color: rgb(34, 34, 34);
+    text-align: left;     
+}
+
+.description-content{
+    width: 1038px;
+    font-size: 20px;
+    font-family: "AT-R";
+    color: rgb(34, 34, 34);
+    text-align: left;
+}
+
+.photos{
+    width: 1400px;
+    height: 434px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+}

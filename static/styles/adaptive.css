@@ -1,0 +1,9 @@
+@media (max-width: 1440px){
+    .footer-logo{
+        display: none;
+    }
+
+    .links{
+        display: none;
+    }
+}

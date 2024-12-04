@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="./static/styles/norm.css">
+    <script src="./static/scripts/min.js"></script>
+    <script src="./static/scripts/about.js"></script>
+    <script src="./static/scripts/callback.js"></script>
+    <script src="./static/scripts/filter.js"></script>
+    <link rel="stylesheet" href="./static/styles/fonts.css">
+    <link rel="stylesheet" href="./static/styles/header.css">
+    <link rel="stylesheet" href="./static/styles/catalog.css">
+    <link rel="stylesheet" href="./static/styles/footer.css">
+    <link rel="stylesheet" href="./static/styles/adaptive.css">
+</head>
+<header>
+    <div class="header-container container">
+        <div class="header-container-info">
+            <div class="header-container-info-left_block">
+                <div class="header-container-info-left_block-operating_mode">
+                    <p>Пн-Пт: с 10:00 до 18:00</p>
+                    <p>Сб-Вс: Дежурный режим</p>
+                </div>
+                <div class="header-container-info-left_block-callback">
+                    <p>8 (495) 640-24-86</p>
+                    <p class="callback-function">Обратный звонок</p>
+                </div>
+            </div>
+            <div class="header-container-info-right_block">
+                <div class="header-container-info-right_block-search">
+                    <input class="header-container-info-right_block-search__input" type="search" name="" id="" placeholder="Поиск..">
+                    <img src="./static/imgs/search.png" alt="">
+                </div>
+                <a class="header-container-info-right_block-login">
+                    <p>Войти</p>
+                    <div class="header-container-info-right_block-login-icon">
+                        <img src="./static/imgs/login.png" alt="">
+                        <div class="header-container-info-right_block-login-border">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="header-container-top_navigation-wrap">
+            <div class="header-container-top_navigation">
+                <div class="header-container-top_navigation-left_block">
+                    <div class="header-container-top_navigation-left_block-about">
+                        <p>
+                            о компании
+                        </p>
+                        <div class="about-menu">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        свидетельство
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        сертификаты
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        партнеры
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        гарантии
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        новости
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        вакансии
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header-container-top_navigation-left_block-products">
+                        <p><a href="./catalog.html">продукция</a></p>
+                    </div>
+                    <div class="header-container-top_navigation-left_block-collaboration">
+                        <p><a href="">сотрудничество</a></p>
+                    </div>
+                    <div class="header-container-top_navigation-left_block-services">
+                        <p><a href="">услуги</a></p>
+                    </div>
+                </div>
+                <div class="header-container-top_navigation-right_block">
+                    <div class="header-container-top_navigation-right_block-projects">
+                        <p><a href="">наши работы</a></p>
+                    </div>
+                    <div class="header-container-top_navigation-right_block-manufacture">
+                        <p><a href="">производство</a></p>
+                    </div>
+                    <div class="header-container-top_navigation-right_block-casing">
+                        <p><a href="">обсада</a></p>
+                    </div>
+                    <div class="header-container-top_navigation-right_block-contacts">
+                        <p><a href="">контакты</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="callback-wrap">
+        <div class="callback">
+            <div class="callback-close">
+                <img src="./static/imgs/callbackClose.png" alt="">
+            </div>
+            <div class="callback-title">
+                <div class="callback-title-line"></div>
+                <h2>Обратный звонок</h2>
+                <div class="callback-title-line"></div>
+            </div>
+            <form action="" class="callback-form">
+                <div class="callback-form-input_ifelds">
+                    <div class="callback-form-name callback-form-block">
+                        <div class="callback-form-block-input_wrap">
+                            <img src="./static/imgs/callbackName.png" alt="" class="callback-form-name__img">
+                            <input type="text" placeholder="Ваши ФИО">
+                        </div>
+                        <div class="callback-form__underline"></div>
+                    </div>
+                    <div class="callback-form-phone callback-form-block">
+                        <div class="callback-form-block-input_wrap">
+                            <img src="./static/imgs/callbackPhone.png" alt="" class="callback-form-phone__img">
+                            <input type="text" name="" id="" placeholder="Телефон">
+                        </div>
+                        <div class="callback-form__underline"></div>
+                    </div>
+                </div>
+                <div class="callback-form-rules">
+                    <input type="checkbox" name="" id="rules_checkbox">
+                    <label for="rules_checkbox"></label>
+                    <p>Принимаю политику конфиденциальности</p>
+                </div>
+                <button type="submit" class="callback-submit">
+                    Отправить
+                </button>
+            </form>
+        </div>
+    </div>
+</header>
+<body>
+    <div class="store">
+        <div class="store-navigation-wrap">
+            <div class="store-navigation">
+                <a href="./index.html" class="store-navigation-element">Главная</a>
+                <div class="circle"></div>
+                <a href="" class="store-navigation-element">Каталог</a>
+            </div>
+        </div>
+        <div class="store-h-wrap">
+            <div class="store-h">
+                <h1>каталог</h1>
+                <div class="grayline"></div>
+            </div>
+        </div>
+        <div class="store-filters_and_grid-grid-wrap">
+            <div class="store-filters_and_grid">
+                <div class="store-filters_and_grid-filters">
+                    <form action="" method="post">
+                        <div class="store-filters_and_grid-filters-price">
+                            <h2>цена:</h2>
+                            <div class="inputs">
+                                <div class="inputs-from">
+                                    <label for="price-input-from">от</label>
+                                    <input type="" class="price-input-from__input" name="price-input-from" id="" maxlength="5">
+                                </div>
+                                <div class="inputs-to">
+                                    <label for="price-input-to">до</label>
+                                    <input type="" class="price-input-to__input" name="price-input-to" id="" maxlength="5">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="store-filters_and_grid-filters-types">
+                            <h2>Вид обсады:</h2>
+                            <div class="inputs">
+                                <div class="input">
+                                    <input type="checkbox" name="" id="t-type">
+                                    <label for="t-type"></label>
+                                    <p>Т - образная</p>
+                                </div>
+                                <div class="input">
+                                    <input type="checkbox" name="" id="p-type">
+                                    <label for="p-type"></label>
+                                    <p>П - образная</p>
+                                </div>
+                                <div class="input">
+                                    <input type="checkbox" name="" id="rough">
+                                    <label for="rough"></label>
+                                    <p>Черновая</p>
+                                </div>
+                                <div class="input">
+                                    <input type="checkbox" name="" id="arched">
+                                    <label for="arched"></label>
+                                    <p>Арочная</p>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="store-filters_and_grid-filters-for_house">
+                        <h2>Для домов:</h2>
+                        <div class="inputs">
+                            <div class="input">
+                                <input type="checkbox" name="" id="cylindrical_log">
+                                <label for="cylindrical_log"></label>
+                                <p>Из оцилиндрованного бревна</p>
+                            </div>
+                            <div class="input">
+                                <input type="checkbox" name="" id="chopped_log">
+                                <label for="chopped_log"></label>
+                                <p>Из рубленного бревна</p>
+                            </div>
+                            <div class="input">
+                                <input type="checkbox" name="" id="bar">
+                                <label for="bar"></label>
+                                <p>Из бруса</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="store-filters_and_grid-filters-casing_type">
+                        <h2>Тип обсады:</h2>
+                        <div class="inputs">
+                            <div class="input">
+                                <input type="checkbox" name="" id="massive">
+                                <label for="massive"></label>
+                                <p>Из массива сосны</p>
+                            </div>
+                            <div class="input">
+                                <input type="checkbox" name="" id="glued">
+                                <label for="glued"></label>
+                                <p>Клееная обсада</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="store-filters_and_grid-filters-manage">
+                        <button type="submit" class="store-filters_and_grid-filters-manage-submit">применить</button>
+                        <button type="reset" class="store-filters_and_grid-filters-manage-reset"></button>
+                    </div>
+                </div>
+                    <div class="store-filters_and_grid-grid">
+                        <div class="store-filters_and_grid-grid-manage">
+                            <div class="store-filters_and_grid-grid-sort_by">
+                                <label for="sort">сортировать по:</label>
+                                <select name="sort_by" id="sort">
+                                    <option value="lower_price" selected="selected">
+                                        Цена ↓
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="store-filters_and_grid-grid-show">
+                                <label for="show">показать:</label>
+                                <select name="show" id="show">
+                                    <option value="20" selected="selected">
+                                        20
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="store-filters_and_grid-grid-cards">
+                            <div class="store-filters_and_grid-grid-cards-card hit">
+                                <img src="./static/imgs/t-obraznaya-obsada-chistovaya.png" alt="" class="store-filters_and_grid-grid-cards-card-img">
+                                <h3 class="store-filters_and_grid-grid-cards-card-title">
+                                    Чистовая Т - образная обсада 65 мм (стойка)
+                                </h3>
+                                <div class="store-filters_and_grid-grid-cards-card-price">
+                                    <p>637 руб</p>
+                                </div>
+                            </div>
+                            <div class="store-filters_and_grid-grid-cards-card hit">
+                                <img src="./static/imgs/chernovaya-p-obraznaya-obsada-65-mm-stojka.png" alt="" class="store-filters_and_grid-grid-cards-card-img">
+                                <h3 class="store-filters_and_grid-grid-cards-card-title">
+                                    Т - образная обсада 65 мм (стойка)
+                                </h3>
+                                <div class="store-filters_and_grid-grid-cards-card-price">
+                                    <p>637 руб</p>
+                                </div>
+                            </div>
+                            <div class="store-filters_and_grid-grid-cards-card">
+                                <img src="./static/imgs/chistovaya-obsada-vershnik.png" alt="" class="store-filters_and_grid-grid-cards-card-img">
+                                <h3 class="store-filters_and_grid-grid-cards-card-title">
+                                    чистовая обсада 65 мм (вершник)
+                                </h3>
+                                <div class="store-filters_and_grid-grid-cards-card-price">
+                                    <p>637 руб</p>
+                                </div>
+                            </div>
+                            <div class="store-filters_and_grid-grid-cards-card">
+                                <img src="./static/imgs/t-obraznaya-obsada-chistovaya.png" alt="" class="store-filters_and_grid-grid-cards-card-img">
+                                <h3 class="store-filters_and_grid-grid-cards-card-title">
+                                    Чистовая Т - образная обсада 65 мм (стойка)
+                                </h3>
+                                <div class="store-filters_and_grid-grid-cards-card-price">
+                                    <p>637 руб</p>
+                                </div>
+                            </div>
+                            <div class="store-filters_and_grid-grid-cards-card hit">
+                                <img src="./static/imgs/chernovaya-p-obraznaya-obsada-65-mm-stojka.png" alt="" class="store-filters_and_grid-grid-cards-card-img">
+                                <h3 class="store-filters_and_grid-grid-cards-card-title">
+                                    Т - образная обсада 65 мм (стойка)
+                                </h3>
+                                <div class="store-filters_and_grid-grid-cards-card-price">
+                                    <p>637 руб</p>
+                                </div>
+                            </div>
+                            <div class="store-filters_and_grid-grid-cards-card hit">
+                                <img src="./static/imgs/chistovaya-obsada-vershnik.png" alt="" class="store-filters_and_grid-grid-cards-card-img">
+                                <h3 class="store-filters_and_grid-grid-cards-card-title">
+                                    чистовая обсада 65 мм (вершник)
+                                </h3>
+                                <div class="store-filters_and_grid-grid-cards-card-price">
+                                    <p>637 руб</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="store-filters_and_grid-grid-pagination">
+                            <img src="./static/imgs/paginLeftArrow.png" alt="">
+                            <div class="store-filters_and_grid-grid-pagination-pages">
+                                <div class="store-filters_and_grid-grid-pagination-pages-element">
+                                    <p>1</p>
+                                </div>
+                                <div class="store-filters_and_grid-grid-pagination-pages-element dots">
+                                    <p>...</p>
+                                </div>
+                                <div class="store-filters_and_grid-grid-pagination-pages-element active">
+                                    <p>4</p>
+                                </div>
+                                <div class="store-filters_and_grid-grid-pagination-pages-element">
+                                    <p>5</p>
+                                </div>
+                                <div class="store-filters_and_grid-grid-pagination-pages-element">
+                                    <p>6</p>
+                                </div>
+                                <div class="store-filters_and_grid-grid-pagination-pages-element dots">
+                                    <p>...</p>
+                                </div>
+                                <div class="store-filters_and_grid-grid-pagination-pages-element">
+                                    <p>7</p>
+                                </div>
+                            </div>
+                            <img src="./static/imgs/paginRightArrow.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="description-wrap">
+        <div class="description">
+            <div class="description-title">
+                <h2>ОСОБЕННОСТИ Т-ОБРАЗНОЙ ОБСАДЫ</h2>
+            </div>
+            <div class="description-content">
+                <p>
+                    Вариант Т-образной обсады появился не так давно, инициатором такого способа установки обсадной коробки являются заводы производители "сборных домов"из бруса или бревна. Дело в том, что на производстве проще и экономически выгоднее выбирать паз (выемку) в стенах, нежели формировать шип (выступ).
+                    Технология Т-образной обсады производиться при помощи специально изготовленного клееного бруса, в зависимости от толщины стен, толщина бруса может варьироваться от 65 мм до 140 мм и шириной от 100 до 500 мм. В стойках обсадной коробки на производстве делается  паз глубиной 1,5-2 см и в него вклеивается брусок 40х50 мм,  выступающий на  30 мм, таким образом в сечении такая деталь обсады имеет форму схожую с буквой " Т ".
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="photos">
+        <img src="./static/imgs/photos1.png" alt="">
+        <img src="./static/imgs/photos2.png" alt="">
+        <img src="./static/imgs/photos3.png" alt="">
+    </div>
+</body>
+<footer>
+    <div class="footer-logo">
+        <img src="./static/imgs/logo.png" alt="">
+    </div>
+    <ul class="footer-navigation">
+        <li>
+            <a href="">О компании</a>
+        </li>
+        <li>
+            <a href="">Продукция</a>
+        </li>
+        <li>
+            <a href="">Наши работы</a>
+        </li>
+        <li>
+            <a href="">Услуги</a>
+        </li>
+        <li>
+            <a href="">Производство</a>
+        </li>
+        <li>
+            <a href="">Сотрудничество</a>
+        </li>
+        <li>
+            <a href="">Обсада</a>
+        </li>
+        
+    </ul>
+    <div class="footer-info">
+        <p>8 (495) 640-24-86</p>
+        <p>mail@evroobsada.ru копия</p>
+    </div>
+    <div class="links">
+        <a href="">
+            <div class="links-block">
+                <img src="./static/imgs/whatsapp.png" alt="">
+            </div>
+        </a>
+        <a href="">
+            <div class="links-block">
+                <img src="./static/imgs/tg.png" alt="">
+            </div>
+        </a>
+        <a href="">
+            <div class="links-block">
+                <img src="./static/imgs/vk.png" alt="">
+            </div>
+        </a>
+    </div>
+</footer>
+</html>

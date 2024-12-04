@@ -1,0 +1,108 @@
+footer{
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(30, 30, 30);
+}
+
+.footer-logo{
+    width: 157px;
+    height: 94px;
+    position: relative;
+}
+
+.footer-logo img{
+    z-index: 5;
+    width: 157px;
+    height: 100px;
+    position: relative;
+}
+
+.footer-logo::before{
+    content: '';
+    width: 207px;
+    height: 144px;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    background-color: rgb(30, 30, 30);
+    z-index: 5;
+}
+
+.footer-info-wrap{
+    width: 1400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-navigation{
+    width: 995px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-family: "AT-B";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-navigation li a{
+    transition: 0.3s;
+}
+
+.footer-navigation li a:hover{
+    color: rgb(200, 168, 123);
+    transition: 0.3s;
+}
+
+.footer-info{
+    text-transform: none;
+}
+
+.footer-info p{
+    font-size: 24px;
+    font-family: "AT-B";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.footer-info p:first-child{
+    margin-top: 62px;
+}
+
+.footer-info p:last-child{
+    font-size: 16px;
+    font-family: "AT-R";
+    color: rgb(71, 166, 42);
+}
+
+.links{
+    display: flex;
+    width: calc(43px*3 + 40px);
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.links-block{
+    width: 43px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links a:first-child .links-block{
+    background-color: rgb(71, 166, 42);    
+}
+
+.links a:nth-child(2) .links-block{
+    background-color: rgb(64, 158, 197);
+}
+
+.links a:last-child .links-block{
+    background-color: rgb(46, 120, 150);
+}
